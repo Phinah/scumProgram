@@ -131,23 +131,23 @@ def win(player):
     window.destroy()  # is used to close the program
 
 
-btn1 = Button(window, text=" ", bg="black", fg="white", width=3, height=1, font=('Helvetica', '20'), command=clicked1)
+btn1 = Button(window, text=" ", bg="brown", fg="black", width=3, height=1, font=('Helvetica', '20'), command=clicked1)
 btn1.grid(column=1, row=1)
-btn2 = Button(window, text=" ", bg="black", fg="white", width=3, height=1, font=('Helvetica', '20'), command=clicked2)
+btn2 = Button(window, text=" ", bg="brown", fg="black", width=3, height=1, font=('Helvetica', '20'), command=clicked2)
 btn2.grid(column=2, row=1)
-btn3 = Button(window, text=" ", bg="black", fg="white", width=3, height=1, font=('Helvetica', '20'), command=clicked3)
+btn3 = Button(window, text=" ", bg="brown", fg="black", width=3, height=1, font=('Helvetica', '20'), command=clicked3)
 btn3.grid(column=3, row=1)
-btn4 = Button(window, text=" ", bg="black", fg="white", width=3, height=1, font=('Helvetica', '20'), command=clicked4)
+btn4 = Button(window, text=" ", bg="brown", fg="black", width=3, height=1, font=('Helvetica', '20'), command=clicked4)
 btn4.grid(column=1, row=2)
-btn5 = Button(window, text=" ", bg="black", fg="white", width=3, height=1, font=('Helvetica', '20'), command=clicked5)
+btn5 = Button(window, text=" ", bg="brown", fg="black", width=3, height=1, font=('Helvetica', '20'), command=clicked5)
 btn5.grid(column=2, row=2)
-btn6 = Button(window, text=" ", bg="black", fg="white", width=3, height=1, font=('Helvetica', '20'), command=clicked6)
+btn6 = Button(window, text=" ", bg="brown", fg="black", width=3, height=1, font=('Helvetica', '20'), command=clicked6)
 btn6.grid(column=3, row=2)
-btn7 = Button(window, text=" ", bg="black", fg="white", width=3, height=1, font=('Helvetica', '20'), command=clicked7)
+btn7 = Button(window, text=" ", bg="brown", fg="black", width=3, height=1, font=('Helvetica', '20'), command=clicked7)
 btn7.grid(column=1, row=3)
-btn8 = Button(window, text=" ", bg="black", fg="white", width=3, height=1, font=('Helvetica', '20'), command=clicked8)
+btn8 = Button(window, text=" ", bg="brown", fg="black", width=3, height=1, font=('Helvetica', '20'), command=clicked8)
 btn8.grid(column=2, row=3)
-btn9 = Button(window, text=" ", bg="black", fg="white", width=3, height=1, font=('Helvetica', '20'), command=clicked9)
+btn9 = Button(window, text=" ", bg="brown", fg="black", width=3, height=1, font=('Helvetica', '20'), command=clicked9)
 btn9.grid(column=3, row=3)
 
 flag = 0  # Flag used to apeend (1) in every turn is occurred
